@@ -1,0 +1,25 @@
+{
+  "name": "http",
+  "version": "1.0.0",
+  "description": "Crear un servidor HTTP en Node.js que responda con un documento HTML que contiene información específica de una página web. La información debe provenir de un objeto almacenado en otro módulo.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcalvomontilla-coder/node-http.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielcalvomontilla-coder/node-http/issues"
+  },
+  "homepage": "https://github.com/danielcalvomontilla-coder/node-http#readme",
+  "dependencies": {
+    "express": "5.2.1"
+  },
+  "devDependencies": {}
+}

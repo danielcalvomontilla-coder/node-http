@@ -1,6 +1,6 @@
 const http = require('node:http');
 const webPageInfo = require('./data.js');
-const PORT = 3000;
+const PORT = 3005;
 
 const server = http.createServer((req, res) => {
     const template = `
